@@ -1,0 +1,17 @@
+body {
+    background: url("../imgs/fondoUsuarios.jpg"); 
+    background-color: black;
+    background-size: contain;
+    background-repeat: round;
+    margin: 0px;
+    height: 100%;
+  }
+
+  div p p {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
