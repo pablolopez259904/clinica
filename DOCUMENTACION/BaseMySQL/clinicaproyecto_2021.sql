@@ -80,7 +80,7 @@ CREATE TABLE `habitaciones` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16 COLLATE=utf16_bin;
 
 --
--- Volcado de datos para la tabla `habitaciones`
+-- Datos para la tabla `habitaciones`
 --
 
 INSERT INTO `habitaciones` (`id_habitacion`, `id_sucursal`, `sector`, `numero`) VALUES
