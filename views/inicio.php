@@ -51,17 +51,17 @@ if (!isset($_SESSION['administrador']))
                         <div class="col-md-6">
                             <table border="0">
                                 <tr>
-                                    <td colspan="2">INTEGRANTES:</td>
+                                    <td colspan="2"></td>
                                 </tr>
                                 <tr>
-                                    <td>CARNE:</td>
                                     <td></td>
-                                    <td>NOMBRES:</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td>1290-18-10621</td>
+                                    <td></td>
                                     <td>-----</td>
-                                    <td>Pablo René López Monzón</td>
+                                    <td></td>
                                 </tr>
                             </table>
                         </div>
