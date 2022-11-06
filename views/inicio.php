@@ -7,7 +7,6 @@ session_start();
 if (!isset($_SESSION['administrador'])) 
 { 
   
-
     if (!isset($_SESSION['usuario'])) 
         { 
             /* nos envía a la siguiente dirección en el caso de no poseer autorización */
