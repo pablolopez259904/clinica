@@ -5,7 +5,6 @@ import {NavigationContainer}  from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 const Stack = createStackNavigator()
-
 import ListarMedicamento from './screens/ListarMedicamento';
 import CrearMedicamento from './screens/CrearMedicamento';
 import verMedicamento from './screens/verMedicamento';
