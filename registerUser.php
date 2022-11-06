@@ -109,7 +109,6 @@ $resultadoR = $db_conexionRoles->use_result();
                             no-repeat
                         `
                     })
-
                 });
             </script>
             <?php
