@@ -118,10 +118,8 @@
                         let drop_rama = document.querySelector('#drop_rama').value;
                         let txt_sintomas = document.querySelector('#txt_sintomas').value;
                         let txt_fecha_hora = document.querySelector('#txt_fecha_hora').value;
-
                         let transaccion = baseDatos.transaction(['citas'], 'readwrite');    
                         let citas = transaccion.objectStore('citas');
-
                         let cita = {nombres: txt_nombres, 
                                     apellidos: txt_apellidos, 
                                     fechaNacimiento: txt_fn,
@@ -134,7 +132,6 @@
                                     };
                         
                         citas.add(cita);
-                        
                         transaccion.oncomplete = function(){
                             document.querySelector('#resultado').innerText = 'La cita se ha creado';
                         }
