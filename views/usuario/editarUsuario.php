@@ -7,7 +7,6 @@ if (!isset($_SESSION['administrador']))
             /* nos envía a la siguiente dirección en el caso de no poseer autorización */
             header("location:/proyectos/clinicaProyecto/index.php"); 
 }
-
 ?>
 <?php
     ob_start();
