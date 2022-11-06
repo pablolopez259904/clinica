@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Estructura de Base de datos: `clinicaproyecto_2021`
+-- Estructura de Base de datos: `clinicaproyecto_2022`
 --
 
 -- --------------------------------------------------------
