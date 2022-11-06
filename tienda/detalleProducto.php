@@ -1,7 +1,6 @@
 <?php
 ob_start();
 require_once 'conexion.php';
-
 //MEDICAMENTO
 $db_conexionMedicamento = mysqli_connect($db_host, $db_user, $db_pass, $db_nombre, $port);
 $idEdit = utf8_decode($_GET["id"]);
